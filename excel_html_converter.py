@@ -92,13 +92,13 @@ def upload_file():
             page += "#request tr:hover {background-color: #ddd;}"
             page += "#request th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: #4CAF50;color: white;}"
             page +="</style>"
-            page += "<table id='request'><tr><th>Name</th><th>Age</th></tr>"
+            page += "<table id='request'><tr><th>Name</th><th>P Number</th></tr>"
             
             print(len(array))
             ## here we change 2 by the cells number we already must know how many cells
             ## in the request or how many fileds don't forget always divide by the cells number 
-            one_request_length = len(array) / 2
-            print(one_request_length)
+            #one_request_length = len(array) / 2
+            #print(one_request_length)
             cells_index = 0
             got_it = False
             ages = []
